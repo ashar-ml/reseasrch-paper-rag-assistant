@@ -1,0 +1,25 @@
+# Virtual environments
+venv/
+**/venv/
+.venv/
+**/__pycache__/
+*.pyc
+
+# Environment files
+.env
+.env.local
+
+# Data and SQLite databases
+data/
+**/data/
+*.db
+*.sqlite
+
+# IDEs
+.vscode/
+.idea/
+.gemini/
+
+# OS specific files
+.DS_Store
+Thumbs.db
