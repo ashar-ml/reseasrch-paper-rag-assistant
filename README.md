@@ -2,6 +2,13 @@
 
 A production-grade, agentic academic research assistant built using LangChain, LangGraph, FastAPI, and Streamlit. The assistant parses research paper PDFs, extracts academic metadata, structures data into hybrid indices (BM25 + ChromaDB), reranks retrieved context using Cross-Encoders, and leverages LangGraph workflows to answer academic queries with exact page-level citations.
 
+### 🌟 Key Features
+
+* **Instant Guest Browsing**: Access the research chat workspace and run benchmarks immediately without any mandatory login walls.
+* **Persistent Chat History (ChatGPT-like)**: Create an account or log in to automatically save, load, and clear your conversation history securely stored in an SQLite backend.
+* **Top-Right Authentication Bar**: Located in the top right, a clean popover button labeled "Login / Sign Up" opens a modal access form. When logged in, it displays the username and a "Logout" button.
+* **Developer Credits**: Bottom sidebar credit: `Research Paper RAG Assistant • Developed by Muhammad Ashar Ali`.
+
 ---
 
 ## Project Structure
